@@ -1,49 +1,43 @@
-.App {
-  text-align: center;
+* {
+	scroll-behavior: smooth;
+	color: white;
 }
 
-.App-logo {
-  height: 35vmin;
-  pointer-events: none;
+.app {
+	min-height: 100vh;
+	background-image: radial-gradient(
+		circle,
+		#0d428e,
+		#233875,
+		#282f5d,
+		#272747,
+		#222032
+	);
+	color: white;
+	padding-top: 155px;
+	padding-bottom: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 700px) {
+	.app {
+		padding-top: 70px;
+	}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pageTittle {
+	text-transform: uppercase;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2vw;
+	padding: 4px;
+	border-radius: 50px;
+	color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.images img {
-  min-width: 100px;
-  height: auto;
-  margin: 5px;
+@media (max-width: 1000px) {
+	.pageTittle {
+		font-size: 6.4vw;
+	}
 }

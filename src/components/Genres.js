@@ -37,8 +37,8 @@ const Genres = ({
 		return () => {
 			setGenres({});
 		};
+		// eslint-disable-next-line
 	}, []);
-	// eslint-disable-next-line
 
 	return (
 		<div style={{ padding: "6px 0", color: "white" }}>

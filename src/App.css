@@ -1,6 +1,6 @@
 * {
 	scroll-behavior: smooth;
-	color: white;
+	color: white !important;
 }
 
 .app {

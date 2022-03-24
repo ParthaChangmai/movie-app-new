@@ -21,6 +21,8 @@ const CustomPagination = ({ setPage, numofPages = 10 }) => {
 					marginTop: 10,
 					marginBottom: 10,
 				}}
+				hideNextButton
+				hidePrevButton
 			/>
 		</div>
 	);

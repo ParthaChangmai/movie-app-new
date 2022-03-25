@@ -1,9 +1,8 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import Genres from "../../components/Genres";
-import CustomPagination from "../../components/Pagination/CustomPagination";
-import SingContent from "../../components/SingleContent/SingContent";
-import useGenres from "../../hooks/useGenre";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+
+import useGenres from '../../hooks/useGenre';
+import { Genres, CustomPagination, SingContent } from '../../components';
 
 const Series = () => {
 	const [page, setPage] = useState(1);

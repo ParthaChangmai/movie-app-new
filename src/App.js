@@ -1,9 +1,7 @@
 import { Container } from '@mui/material';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
-import SimpleBottomNavigation from './components/MainNav';
-
+import { SimpleBottomNavigation, Header } from './components';
 import { Movies, Search, Series, Trending } from './Pages';
 
 function App() {

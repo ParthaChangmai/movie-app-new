@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import SingContent from "../../components/SingleContent/SingContent";
-import "./Trending.css";
-import CustomPagination from "../../components/Pagination/CustomPagination";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import './Trending.css';
+import { SingContent, CustomPagination } from '../../components';
 
 const Trending = () => {
 	const [page, setPage] = useState(1);
